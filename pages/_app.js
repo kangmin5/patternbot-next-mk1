@@ -7,13 +7,13 @@ import '@/styles/globals.css'
 function App({ Component, pageProps }) {
   return (
     <div>
-    <Header />
-    <Nav/>
-    <Layout>
-        <Component {...pageProps} />
-    </Layout> 
-    <Footer/>
-  </div>
+      <Header />
+      <Nav/>
+      <Layout>
+          <Component {...pageProps} />
+      </Layout> 
+      <Footer/>
+    </div>
   )
 }
 

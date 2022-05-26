@@ -13,17 +13,21 @@ export default function Nav() {
           </div>
           <div className={styles.mainMenu}>
               <Link href='/menu/chouse'>거래소</Link>
-              <Link href='/menu/sales'>AI현황</Link>
+              <Link href='/menu/sales'>투자현황</Link>
               <Link href='/menu/preset'>설정</Link>
               <Link href='/menu/about'>About</Link>
               <Link href='/menu/faq'>FAQ</Link>
               <Link href='/menu/contact'>Contact</Link>
 
           </div>
-          <div className={styles.loginMenu}>
-              <Link href='/auth/login'>로그인</Link>
-          <Link href='/auth/register' >회원가입</Link>
+        <div className={styles.loginMenu}>
+          <div className={styles.login}>
+            <Link href='/auth/login' >로그인</Link>
           </div>
+          <div className={styles.register}>
+            <Link href='/auth/register' className={styles.register}>회원가입</Link>
+          </div>
+        </div>
       </div>
     </div>
   )
