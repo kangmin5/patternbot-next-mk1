@@ -25,7 +25,7 @@ export default function Nav() {
             <Link href='/auth/login' >로그인</Link>
           </div>
           <div className={styles.register}>
-            <Link href='/auth/register' className={styles.register}>회원가입</Link>
+            <Link href='/auth/register' className={styles.register} disabled>회원가입</Link>
           </div>
         </div>
       </div>

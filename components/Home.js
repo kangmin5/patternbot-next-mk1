@@ -12,9 +12,9 @@ export default function Home() {
       </div>
       <div className={styles.mainbox}>
         <div className={styles.wrapper}>
-          <div className={styles.box1}>box1</div>
-          <div className={styles.box2}>box2</div>
-          <div className={styles.box3}>box3</div>
+          <div className={styles.box1}>클릭 [about]소개로 가기</div>
+          <div className={styles.box2}>클릭 [거래소] 바로가기</div>
+          <div className={styles.box3}> COIN 시세 보여주기</div>
         </div>
       </div>
     </div>
