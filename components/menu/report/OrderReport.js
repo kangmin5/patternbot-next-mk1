@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '@/styles/Sales.module.css'
+import styles from '@/styles/OrderReport.module.css'
 
-export const SalesTable=()=>{
+export const OrderTable=()=>{
   return (
     <div className={styles.table}>
       <ul className={styles.thul}>
@@ -55,13 +55,13 @@ export const SalesTable=()=>{
 }
 
 
-const Sales = () => {
+const OrderReport = () => {
   return (
     <div className={styles.container}>
-      <h2>투자현황</h2>
+      <h1>투자현황</h1>
       <div>
         <p style={{fontSize:"0.5rem",textAlign:"end"}}>[단위: 원]</p>
-        <SalesTable/>
+        <OrderTable/>
       </div>
       <div>
         <button className={styles.button1}>미체결주문</button>
@@ -71,4 +71,4 @@ const Sales = () => {
   )
 }
 
-export default Sales
+export default OrderReport

@@ -1,4 +1,4 @@
-import Chouse from '@/components/menu/Chouse'
+import Chouse from '@/components/menu/trade/Chouse'
 import React from 'react'
 
 const ChousePage = () => {

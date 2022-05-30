@@ -11,7 +11,7 @@ export default function Header() {
                 content="width=device-width, user-scalable=no,
                 initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
             <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
-            <title>MK NEXT TEMPLATE1</title>
+            <title>PatternBOT</title>
             
         </Head>
     )

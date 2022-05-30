@@ -32,7 +32,7 @@ export default function GoogleLogin() {
                     id="password"
                     autoComplete="current-password"/>
             </div>
-            <div>
+            <div >
                 <Button
                     type="submit"
                     fullWidth="fullWidth"
@@ -43,10 +43,9 @@ export default function GoogleLogin() {
                     }}>
                     GOOGLE 로그인
                 </Button>
-				<h5 style={{marginTop:"0.5rem"}}><Link href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp" >
-						<a target="_blank">GOOGLE 회원가입</a>
-					</Link>
-				</h5>
+				<Link href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp" >
+                    <a className={styles.text} target="_blank"><h5>GOOGLE가입</h5></a>
+				</Link>
             </div>
 
 

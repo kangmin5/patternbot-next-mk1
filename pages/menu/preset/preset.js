@@ -1,4 +1,4 @@
-import Preset from '@/components/menu/Preset'
+import Preset from '@/components/menu/preset/Preset'
 import React from 'react'
 
 const PresetPage = () => {

@@ -12,20 +12,22 @@ export default function Nav() {
             <Image src="/images/patternbot.png" width={120} height={40} alt="LOGO"/></Link>
           </div>
           <div className={styles.mainMenu}>
-              <Link href='/menu/chouse'>거래소</Link>
-              <Link href='/menu/sales'>투자현황</Link>
-              <Link href='/menu/preset'>설정</Link>
+              <Link href='/menu/trade/trade'>거래소</Link>
+              <Link href='/menu/report/investReport'>투자현황</Link>
+              <Link href='/menu/preset/preset'>설정</Link>
               <Link href='/menu/about'>About</Link>
               <Link href='/menu/faq'>FAQ</Link>
               <Link href='/menu/contact'>Contact</Link>
 
           </div>
         <div className={styles.loginMenu}>
-          <div className={styles.login}>
-            <Link href='/auth/login' >로그인</Link>
+          <div >
+            <Link href='/auth/login'>
+              <a className={styles.login}>로그인</a></Link>
           </div>
-          <div className={styles.register}>
-            <Link href='/auth/register' className={styles.register} disabled>회원가입</Link>
+          <div >
+            <Link href='/auth/register' className={styles.register}>
+            <a className={styles.register}>회원가입</a></Link>
           </div>
         </div>
       </div>

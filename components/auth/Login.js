@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Login() {
   return (
     <div className={styles.container}>
-            <h1 style={{textAlign:"center", marginTop:"4rem"}}> 로그인</h1>
+            <h1 > 로그인</h1>
             <div>
             <TextField
               margin="normal"
@@ -40,11 +40,11 @@ export default function Login() {
             </Button>
             </div>
             <div>
-                <h5 style={{ marginTop: "0.5rem" }}>
-                    <Link href='/auth/register' >
+            <Link href='/auth/register' >
+                <h5 style={{ marginTop: "0.5rem",textAlign:"end",color:"#5e5ee6",cursor:"pointer" }}>
 						회원가입
-					</Link>
-				</h5>
+            </h5>
+            </Link>
             <Link href="/auth/googleLogin">
                 <Button 
                   fullWidth
